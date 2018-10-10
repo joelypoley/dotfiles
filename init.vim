@@ -3,6 +3,7 @@ call plug#begin('~/.local/share/nvim/plugged')
     " Add `Plug <plugin name here>`
     " Then call `:PlugInstall` when you enter nvim
 	Plug 'crusoexia/vim-monokai'
+    Plug 'scrooloose/nerdtree'
     if has('nvim')
       Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
     else
